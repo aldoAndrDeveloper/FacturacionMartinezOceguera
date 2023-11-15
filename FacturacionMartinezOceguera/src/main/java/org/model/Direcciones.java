@@ -1,15 +1,15 @@
 package org.model;
 
 public class Direcciones {
-    String calle;
-    String numExt;
-    String numInt;
-    String colonia;
-    String codigoPostal;
+    private String calle;
+    private String numExt;
+    private String numInt;
+    private String colonia;
+    private String codigoPostal;
     /*
      * Para Ciudad, estado y pais podríamos poner listas alimentada desde una BD
      * pero para el entregable lo deajaré así estático*/
-    String ciudad;
-    String estado;
-    String pais;
+    private String ciudad;
+    private String estado;
+    private String pais;
 }

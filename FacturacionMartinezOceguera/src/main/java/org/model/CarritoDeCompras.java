@@ -2,10 +2,10 @@ package org.model;
 
 public class CarritoDeCompras {
 
-    String SKUProducto;
-    int idusuario;
-    String fecha;
-    int cantidad;
+    private String SKUProducto;
+    private int idusuario;
+    private String fecha;
+    private int cantidad;
 
     public CarritoDeCompras(){}
     public CarritoDeCompras(String SKUProducto, int idusuario, String fecha, int cantidad) {

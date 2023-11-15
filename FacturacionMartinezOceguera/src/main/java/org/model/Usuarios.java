@@ -4,13 +4,13 @@ import java.util.List;
 
 public class Usuarios {
 
-    int id;
-    String nombre;
-    String apellidos;
-    String correo;
-    String telefono;
-    String contraseña;
-    byte edad;
+    private int id;
+    private String nombre;
+    private String apellidos;
+    private String correo;
+    private String telefono;
+    private String contraseña;
+    private byte edad;
 
     public Usuarios(){}
     public Usuarios(int id, String nombre, String apellidos, String correo, String telefono, String contraseña, byte edad) {

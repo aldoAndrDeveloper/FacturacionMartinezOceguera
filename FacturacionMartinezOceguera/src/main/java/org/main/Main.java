@@ -1,4 +1,4 @@
-package org.example;
+package org.main;
 
 import org.model.Comprador;
 import org.flujo.FlujoDeTienda;
